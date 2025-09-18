@@ -48,7 +48,7 @@ main {
     padding: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(\public\BikeCardImg.png);
+    background-image: url(public/BikeCardImg.png);
     border-radius: 10px;
     min-height: 300px;
     flex: 1;
@@ -58,7 +58,7 @@ main {
     padding: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(\public\BikeCardImg2.png);
+    background-image: url(public/BikeCardImg2.png);
     flex: 1;
     min-height: 300px;
     border-radius: 10px;
@@ -66,7 +66,7 @@ main {
 
 .card3 {
     padding: 10px;
-    background-image: url(\public\BikeCardImg3.jpg);
+    background-image: url(public/BikeCardImg3.jpg);
     background-size: cover;
     background-position: center;
     flex: 1;
