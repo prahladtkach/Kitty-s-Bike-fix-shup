@@ -39,30 +39,38 @@ main {
 
 .cards {
     padding: 20px;
-    background-color: #56177d;
-    min-height: 300px;
     display: flex;
     gap: 20px;
+    text-align: center;
 }
 
 .card1 {
-    background-color: #9a28e1;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/public/BikeCardImg.png);
     border-radius: 10px;
     min-height: 300px;
     flex: 1;
 }
 
 .card2 {
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/public/BikeCardImg2.png);
     flex: 1;
     min-height: 300px;
-    background-color: #9a28e1;
     border-radius: 10px;
 }
 
 .card3 {
+    padding: 10px;
+    background-image: url(/public/BikeCardImg3.jpg);
+    background-size: cover;
+    background-position: center;
     flex: 1;
     min-height: 300px;
-    background-color: #9a28e1;
     border-radius: 10px;
 }
 
@@ -113,8 +121,18 @@ h1 {
     margin: 0;
     margin-bottom: 1.5rem;
 }
+h2 {
+    font-size: 2rem;
+    font-family: "Iceberg", sans-serif;
+    text-align: center;
+}
 p {
     font-size: 1.5rem;
     line-height: 1.75rem;
     margin-bottom: 0.5rem;
+}
+.cards p {
+    font-size: 1.15rem;
+    line-height: 1.25rem;
+    text-align: center;
 }
