@@ -136,3 +136,12 @@ p {
     line-height: 1.25rem;
     text-align: center;
 }
+
+svg {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+svg path {
+    stroke: #ffffff;
+    }
