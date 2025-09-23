@@ -1,8 +1,8 @@
 /* https://grabient.com/HQJgHCA0wMztBGA7DaBWALE6SBsAGaXEBaEXbWXVYBATm0JGHw1Q1rDunyTBwxRgSfIQC0CYGzBA?style=linearGradient&steps=3&angle=135 */
 .iceberg-regular {
-  font-family: "Iceberg", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Iceberg", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -121,16 +121,19 @@ h1 {
     margin: 0;
     margin-bottom: 1.5rem;
 }
+
 h2 {
     font-size: 2rem;
     font-family: "Iceberg", sans-serif;
     text-align: center;
 }
+
 p {
     font-size: 1.5rem;
     line-height: 1.75rem;
     margin-bottom: 0.5rem;
 }
+
 .cards p {
     font-size: 1.15rem;
     line-height: 1.25rem;
@@ -142,6 +145,34 @@ svg {
     height: auto;
     margin-bottom: 15px;
 }
+
 svg path {
     stroke: #ffffff;
-    }
+}
+
+.cards a {
+    text-decoration: none;
+    color: white;
+}
+
+.cards a:hover {
+    text-decoration: underline;
+    color: #d7bff0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.25rem;
+    color: white;
+    background-color: #0107c0;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    font-family: "Iceberg", sans-serif;
+}
+.cta-button:hover {
+    background-color: #433bd3;
+}
