@@ -29,6 +29,7 @@ header {
     padding-top: 20px;
     padding-bottom: 10px;
     justify-content: space-between;
+    border-bottom: 1px solid gray;
 }
 
 main {
@@ -52,6 +53,7 @@ main {
     border-radius: 10px;
     min-height: 300px;
     flex: 1;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.613);
 }
 
 .card2 {
@@ -62,6 +64,7 @@ main {
     flex: 1;
     min-height: 300px;
     border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.613);
 }
 
 .card3 {
@@ -72,6 +75,7 @@ main {
     flex: 1;
     min-height: 300px;
     border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.613);
 }
 
 .herobox1 {
@@ -82,12 +86,16 @@ main {
     text-align: center;
     flex: 2;
 }
+.herobox1 h1, p {
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.503);
+}
 
 .herobox2 {
     margin: 20px;
     border-radius: 10px;
     text-align: center;
     flex: 1;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.503);
 }
 
 nav {
@@ -102,6 +110,11 @@ nav a {
     font-weight: bold;
     font-family: "Iceberg", sans-serif;
     font-size: large;
+    border-style: solid;
+    border-width: 1px;
+    border-color: azure;
+    padding: 5px 15px;
+    border-radius: 10px 0;
 }
 
 nav a:hover {
@@ -167,11 +180,12 @@ svg path {
     color: white;
     background-color: #0107c0;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px 0px;
     text-decoration: none;
     margin-top: 20px;
     transition: background-color 0.3s ease;
     font-family: "Iceberg", sans-serif;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.503);
 }
 .cta-button:hover {
     background-color: #433bd3;
