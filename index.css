@@ -190,3 +190,41 @@ svg path {
 .cta-button:hover {
     background-color: #433bd3;
 }
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.503);
+    margin: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+.testimonials h2 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.503);
+    font-family: "Iceberg", sans-serif;
+    text-align: center;
+}
+.testimonials .subtitle {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-style: italic;
+    color: #bfcafb;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.503);
+    font-family: "Iceberg", sans-serif;
+    text-align: center;
+}
+.tbox {
+    width: 37%;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 50px;
+    border: 1px solid white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.503);
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 10px;
+}
