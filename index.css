@@ -98,12 +98,12 @@ main {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.503);
 }
 
-nav {
-    margin-top: 10px;
+.navbutton {
+    padding-top: 15px;
     justify-content: end;
 }
 
-nav a {
+.navbutton a {
     margin: 0 15px;
     text-decoration: none;
     color: white;
@@ -116,8 +116,14 @@ nav a {
     padding: 5px 15px;
     border-radius: 10px 0;
 }
+.navbutton {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
 
-nav a:hover {
+.navbutton a:hover {
     text-decoration: underline;
     color: #d7bff0;
 }
@@ -228,3 +234,26 @@ svg path {
     margin-top: 30px;
     border-radius: 10px;
 }
+
+.tbox p:last-of-type {
+    font-size: 1.15rem;
+    font-style: italic;
+    color: white;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+}
+
+.navbutton:hover .dropdown{
+    display: block;
+    padding-top: 150px;
+    z-index: 100;
+}
+.dropdown a {
+    background-color: rgba(0, 0, 65, 0.9);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.503);
+}
+
