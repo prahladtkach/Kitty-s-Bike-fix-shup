@@ -68,7 +68,18 @@
                     If we no answer rite away, itz probly ‘cause we chasin’ a laser,
                     wait no, sorry, we mean workin’ very hard in da wurkshup!
                 </p>
-                <a href="#" class="cta-button">Contact Uz now!</a>
+
+                 <form action="mail.php" method="post" class="contact-form">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Yourz Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Yourz Meowssage/Problum:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send uz Meowssage</button>
             </div>
         </main>
         <div class="cards">
