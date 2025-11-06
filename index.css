@@ -261,4 +261,47 @@ svg path {
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.503);
 }
+.contact-form {
+    max-width: 500px;
+    margin-top: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.503);
+    padding: 30px;
+    border-radius: 10px;
+}
+.inputwrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.inputbox {
+    padding: 10px;
+    border-radius: 20px 0px;
+    border: none;
+    font-size: 1rem;
+    font-family: "Iceberg", sans-serif;
+}
 
+.summitbutton {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #0107c0;
+    border: none;
+    border-radius: 20px 0px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    font-family: "Iceberg", sans-serif;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.503);
+    cursor: pointer;
+}
+
+.summitbutton:hover {
+    background-color: #433bd3;
+}
